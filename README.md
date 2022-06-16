@@ -1,5 +1,5 @@
 # express_library
-Express Library is an application designed to display book information from the MongoDB Atlas cloud database. Database is populated with dummy data provided via MDN's tutorial document. Express was used to create data Models and Schemas to be presented in the webpages.
+Express Library is an application designed to display book information from the MongoDB Atlas cloud database. The database is populated with dummy data provided via MDN's tutorial document. Express was used to create data models and schemas to be presented in the webpages.
 
 <h4>Features</h4>
   <ul>
@@ -10,6 +10,9 @@ Express Library is an application designed to display book information from the 
 <h4>Challenges</h4>
   <ul>
     <li>Learning to use Express
+    <li>Creating Models/Schemas for data
+    <li>Routing between different webpages
+    <li>Templates for display style for each webpage
   </ul>
 
 <h4>Credits</h4>
