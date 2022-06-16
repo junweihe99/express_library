@@ -19,5 +19,5 @@ Express Library is an application designed to display book information from the 
 
 <h4>Credits</h4>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">mdn web docs</a>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website">mdn web docs</a>
   </ul>
