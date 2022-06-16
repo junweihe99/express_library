@@ -13,6 +13,8 @@ Express Library is an application designed to display book information from the 
     <li>Creating Models/Schemas for data
     <li>Routing between different webpages
     <li>Templates for display style for each webpage
+    <li>Connecting to MongoDB Atlas cloud database and query data
+    <li>Using query data to display needed data on template webpage
   </ul>
 
 <h4>Credits</h4>
