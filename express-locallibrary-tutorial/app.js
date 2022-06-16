@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 //Import routes for "catalog" area of site
 var catalogRouter = require('./routes/catalog');  
+var compression = require('compression');
 
 
 var app = express();
@@ -15,7 +16,8 @@ var app = express();
 //Import the mongoose module
 var mongoose = require('mongoose');
 //Set up default mongoose connection
-var mongoDB = 'mongodb+srv://junwei:diedman123@cluster0.gsezwu5.mongodb.net/?retryWrites=true&w=majority';
+var dev_db_url = 'mongodb+srv://junwei:diedman123@cluster0.gsezwu5.mongodb.net/?retryWrites=true&w=majority';
+var mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true});
 //Get the default connection
 var db = mongoose.connection;
